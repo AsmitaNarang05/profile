@@ -1,0 +1,425 @@
+*
+{
+	margin:0px;
+	padding:0px;
+}
+/**********************Navigationsidebar****************************************/
+
+section#body
+{
+	padding:0;
+	float:left;
+	background:#373536;
+	width:250px;
+	height:837px;
+}
+aside#sidebar
+{
+	position:fixed;
+}
+.column-left
+{
+	float:left;
+}
+header
+{
+	padding:58px 10px 10px 15px;
+}
+header h3
+{
+	color:#FFF;
+	text-align:center;
+}
+.line
+{
+	float:left;
+	width:100%;
+	padding:4px;
+	padding-top:37px;
+}
+.bottom_line
+{
+	float:left;
+	width:97%;
+	height:3px;
+	background-color:#4c4c4c;
+	text-align:center;
+}
+.links
+{
+	float:left;
+	width:100%;
+	padding-top:22px;
+	padding-left:85px;
+	padding-bottom:50px;
+}
+.links ul
+{
+	float:left;
+	width:100%;
+	
+}
+.links ul li
+{
+	color:#FFF;
+	list-style-type:none;
+	padding-top:36px;
+}
+.links ul ul li
+{
+	padding-left:30px;
+	padding-top:10px;
+}
+.links ul ul
+{
+	padding-bottom:50px;
+}
+.links ul li a
+{
+	color:#FFF;
+	text-decoration:none;
+}
+.links ul li a:hover
+{
+	color:#000;
+}
+/**************************right full_width********************/
+.banner
+{
+	float:left;
+	width:81.4%;
+	height:100%;
+	background-color:#dbd9da;
+	padding-bottom:40px;
+	
+}
+/*****************personal_details*********************/
+.white_section
+{
+	float:left;
+	width:95%;
+	height:20%;
+	background-color:#FFF;
+	margin-top:20px;
+	margin-left:27px;
+	
+}
+
+.circle
+{
+	float:left;
+	width:90px;
+	margin-top:24px;
+	margin-left:36px;
+	background-color:#000;
+	height:90px;
+	border-radius:50%;
+}
+.details
+{
+	float:left;
+	width:75%;
+	padding:14px;
+}
+
+.details h3
+{
+	font-family: 'ABeeZee', sans-serif;
+}
+.border_black
+{
+	float:left;
+	width:100%;
+	padding-left:29px;
+	padding-top:19px;
+	padding-bottom:30px;
+}
+.black
+{
+	float:left;
+	width:97.5%;
+	height:3px;
+	background-color:#191919;
+	text-align:center;
+}
+/*****************toggle_bar*********************/
+
+.toggle_class 
+{
+	float:left;
+	width:100%;
+	background-color:#FFF;
+	height:100%;
+	border-bottom:1px solid #000;
+	cursor:pointer;
+	color:#000;
+	}
+	ul.toggle_class li:hover
+	{
+		background-color:#319465;
+		
+	}
+	ul.toggle_class  li a:hover
+	{
+		color:#FFF;
+	}
+ul.toggle_class
+{
+ }
+ul.toggle_class li
+{
+	list-style-type:none;
+	border-bottom:1px solid #000;
+	padding:54px 10px 57px 10px;
+	text-align:center;
+	font-size:20px;
+}
+ul.toggle_class li a
+{
+	padding:20px;
+	color:#000;
+	text-decoration:none;
+}
+  
+
+/*****************educational_exper*********************/
+
+.add_details
+{
+	float:left;
+	width:95%;
+	height:20%;
+	background-color:#FFF;display:none;}
+.psrel
+{
+	float:left;
+	width:100%;
+	position:relative;
+}
+.add_details h4
+{
+	padding-left:23px;
+	padding-top:4px;
+	font-family: 'ABeeZee', sans-serif;
+}
+.break
+{
+	float:left;
+	width:100%;
+	padding-left:22px;
+}
+.line_break
+{
+	float:left;
+	width:33%;
+	height:1px;
+	background-color:#000;
+}
+.detail_content
+{
+	float:left;
+	width:100%;
+}
+.detail_content p
+{
+	
+	padding:20px 10px 0px 20px;
+	font-weight:600;
+}
+.detail_content h5
+{
+	padding-left:21px;
+	font-size:13px;
+}
+.detail_text p
+{
+	padding:20px 10px 0px 20px;
+	font-weight:600;
+}
+.detail_text h5
+{
+	padding-left:21px;
+	font-size:13px;
+}
+.edit
+{
+	float:right;
+}
+.edit p
+{
+	font-weight:600;
+	
+	padding-top:61px;
+}
+.edit p1
+{
+	font-weight:600;
+	cursor:pointer;
+}
+.add_details2
+{
+	margin-top:10px;
+}
+/*******************adding_more_details***************/
+.add_button
+{
+	margin-top:10px;
+	float:left;
+	width:95%;
+	height:20%;
+	display:none;
+	padding-bottom:10px;
+	background-color:#FFF;
+	font-family: 'ABeeZee', sans-serif;
+}
+.add_button h4
+{
+	padding:20px;
+}
+.add_button p
+{
+	font-weight:700;
+	
+}
+.college
+{
+	float:left;
+	width:100%;
+	padding-left:20px;
+}
+.college input
+{
+	width:50%;
+}
+.course
+{
+	float:left;
+	width:100%;
+	padding-left:20px;
+	padding-top:20px;
+}
+.course input
+{
+	width:50%;
+}
+.complete
+{
+	float:left;
+	width:100%;
+	padding-left:20px;
+	padding-top:20px;
+	padding-bottom:20px;
+}
+.complete input
+{
+	width:23%;
+}
+input.thewr
+{
+	width:13%;
+	padding-left:4px;
+}
+.changes
+{
+	float:left;
+	width:100%;
+	padding-right:20px;
+}
+.changes h4
+{
+	float:right;
+	padding:10px;
+	background-color:#319465;
+	color:#FFF;
+	display:inline-block;
+	font-family: 'ABeeZee', sans-serif;
+	
+
+}
+.changes h4:hover
+{
+	cursor:pointer;
+	background-color:#0C6;
+	
+}
+/*****************college_details_2*********************/
+
+.add_details2
+{
+	float:left;
+	width:95%;
+	height:20%;
+	display:none;
+	
+	background-color:#FFF;
+	}
+	
+.add_details2 h4
+{
+	padding-left:23px;
+	padding-top:4px;
+	font-family: 'ABeeZee', sans-serif;
+}
+.break
+{
+	float:left;
+	width:100%;
+	padding-left:22px;
+}
+.line_break
+{
+	float:left;
+	width:33%;
+	height:1px;
+	background-color:#000;
+}
+.detail_content
+{
+	float:left;
+	width:100%;
+}
+.detail_content p
+{
+	
+	padding:20px 10px 0px 20px;
+	font-weight:600;
+}
+.detail_content h5
+{
+	padding-left:21px;
+	font-size:13px;
+}
+.detail_text p
+{
+	padding:20px 10px 0px 20px;
+	font-weight:600;
+}
+.detail_text h5
+{
+	padding-left:21px;
+	font-size:13px;
+}
+.edit
+{
+	float:right;
+}
+.edit p
+{
+	font-weight:600;
+	padding-top:61px;
+}
+.edit p1
+{
+	font-weight:600;
+}
+button
+{
+	padding:10px;
+	float:right;
+	background-color:#319465;
+}
+button:hover
+{
+	background-color:#3C9;
+	color:#FFF;
+}

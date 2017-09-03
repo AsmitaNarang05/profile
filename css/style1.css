@@ -1,0 +1,49 @@
+@media (min-width:320px) and (max-width:768px)
+{
+	section#body
+	{
+		display:none;
+	}
+	aside#sidebar
+	{
+		position:inherit;
+	}
+	.banner
+	{
+		width:99%;
+	}
+	.white_section
+	{
+		width:86%;
+	}
+	.course
+	{
+		padding-left:51px;
+	}
+	.college
+	{
+		padding-left:51px;
+	}
+	.complete
+	{
+		padding-left:51px;
+	}
+	.add_details2
+	{
+		display:none;
+	}
+	.add_details
+	{
+		width:100%;
+		margin-top:10px;
+	}
+	.college input
+	{
+		padding-bottom:10px;
+	}
+	.add_button
+	
+	{
+		width:100%;
+	}
+}
